@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Leonardo Marcorè",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -133.8, "left": -231, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 94.7, "left": -201.8, "attrs": {} }
+  ],
+  "connections": [
+    [ "pot1:GND", "uno:GND", "black", [] ],
+    [ "pot1:VCC", "uno:5V", "red", [] ],
+    [ "pot1:SIG", "uno:A0", "green", [] ]
+  ],
+  "dependencies": {}
+}
